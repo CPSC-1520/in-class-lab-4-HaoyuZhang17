@@ -1,5 +1,9 @@
 
 // Enter your code below.
+document.querySelector('.new-order-form').addEventListener('submit', (evt) => {
+  
+  evt.preventDefault();
+});
 
 
 // functions needed for assessment (do not change.)
